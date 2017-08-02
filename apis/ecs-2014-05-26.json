@@ -717,15 +717,6 @@
             "required": true,
             "default": "CreateInstance"
           },
-          "OwnerId": {
-            "type": "integer"
-          },
-          "ResourceOwnerAccount": {
-            "type": "string"
-          },
-          "ResourceOwnerId": {
-            "type": "integer"
-          },
           "RegionId": {
             "required": true,
             "type": "string"
@@ -748,16 +739,16 @@
             "type": "string"
           },
           "AutoRenew": {
-            "type": "boolean"
+            "type": "string"
           },
           "AutoRenewPeriod": {
             "type": "integer"
           },
           "InternetMaxBandwidthIn": {
-            "type": "integer"
+            "type": "string"
           },
           "InternetMaxBandwidthOut": {
-            "type": "integer"
+            "type": "string"
           },
           "HostName": {
             "type": "string"
@@ -937,6 +928,18 @@
             "type": "string"
           },
           "SpotStrategy": {
+            "type": "string"
+          },
+          "KeyPairName": {
+            "type": "string"
+          },
+          "DeploymentSetId": {
+            "type": "string"
+          },
+          "RamRoleName": {
+            "type": "string"
+          },
+          "SecurityEnhancementStrategy": {
             "type": "string"
           }
         }

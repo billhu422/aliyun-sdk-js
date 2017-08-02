@@ -4643,7 +4643,7 @@ ALY.Signers.OTS = inherit(ALY.Signers.RequestSigner, {
     var headers = this.canonicalizedHeaders();
     if (headers) parts.push(headers);
     //parts.push(this.canonicalizedResource());
-
+    console.log(JSON.stringify(parts));
     return parts.join('\n') + '\n';
   },
 
